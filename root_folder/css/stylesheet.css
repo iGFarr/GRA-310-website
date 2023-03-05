@@ -1,0 +1,26 @@
+#nav {
+    width: 100%;
+    float: left;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    justify-content: center;
+}
+
+#nav li a {
+    float: left;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc;
+}
+
+#primaryFont {
+    font-family: "goudy-old-style", serif;
+    font-weight: 400;
+    font-style: normal;
+}
