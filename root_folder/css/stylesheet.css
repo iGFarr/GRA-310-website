@@ -1,22 +1,21 @@
 #nav {
-    width: 100%;
-    float: left;
-    padding: 0;
+    display: inline-flex;
     list-style: none;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
+    text-align: center;
     justify-content: center;
 }
 
-#nav li a {
+#nav li {
     float: left;
-    display: block;
+    width: 80px;
     padding: 8px;
     text-decoration: none;
     font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+
+#nav li a {
+    color: #CF1C44;
 }
 
 #primaryFont {
