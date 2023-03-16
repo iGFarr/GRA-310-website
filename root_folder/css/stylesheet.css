@@ -17,8 +17,9 @@
     color: #CF1C44;
 }
 
-#primaryFont {
+h1, #primaryFont {
     font-family: "goudy-old-style", serif;
     font-weight: 400;
     font-style: normal;
+    color: #7b573e;
 }
