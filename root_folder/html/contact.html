@@ -1,17 +1,388 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <!-- Standard browser registration declaration for HTML 5 -->
+<html> <!-- Encapsulates the entire HTML document which will form the DOM -->
 
+<!-- Contains important meta data and file references -->
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pasta Amore Home</title> <!-- What's displayed in the tab -->
 
-    <title>Contact Pasta Amore</title>
-    <meta name="description" content="Pasta Amore primary contact information">
-    <meta name="author" content="Isaac Farr">
+    <meta charset="utf-8"> <!-- Encoding character set -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Makes content dynamic for different screen sizes -->
+    <meta name="description" content="Pasta Amore contact information">
+    <meta name="author" content="Isaac Farr"> <!-- That's me! -->
+    <meta name="keywords" content="Pasta Amore, Italian, Cuisine, Fine Dining, Pizza, Cannoli, Recipes, Restaurant">
+    <!-- More SEO -->
+
+    <!-- One absolute link for the Goudy font, the other is the relative link for my stylesheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/efx1yrv.css">
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="root_folder/css/stylesheet.css">
 </head>
 
+<!-- Headers are great candidates for containing a nav bar -->
+
+<!-- IIRC main is typically a sub element of body containing the dominant content of a page -->
+<body>
+    <div class="blog-masthead">
+        <div>
+          <nav class="blog-nav">
+            <a class="blog-nav-item active" href="/index.html">Home</a>
+            <a class="blog-nav-item" href="/root_folder/html/menu.html">Menu</a>
+            <a class="blog-nav-item" href="#">Contact</a>
+            <a class="blog-nav-item" href="/root_folder/html/about.html">About</a>
+          </nav>
+        </div>
+      </div>
+
+    
+    <wrapper class="container">
+        <div class="row-xs-12">
+        <a href="https://www.youtube.com/channel/UCAHXaslH4yfGCCV_tleWioQ" target="_blank" rel="nofollow">
+            <div class="col-xs-2" style="background-color: darkgrey; margin: 0; padding: 0; display: inline-block; height: 60vh; width: 10vw; text-align: center; position: fixed; left: 0; top: 150px;">
+                <img src="root_folder/images/CubeNoobBannerVert.png" style="height: 60vh; width: 10vw;  margin: 0; padding: 0; ">
+            </div>
+        </a>
+
+        <main class="col-xs-6 col-xs-offset-3">
+            <div>
+                <!-- h1 is the most important header tag, semantically and visually. In this case, I think both p elements are of equal importantce,
+                     and thus, both should have h1 elements. Actually, might be better to have h2, as I think it's bad practice to have multiple h1 -->
+                <h1 id="primaryFont" style="font-size: 60px;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>
+    
+    
+    
+    
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>           <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Mission Statement:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;To provide a warm atmosphere for your family where we<br>
+                    can share the traditional cuisines of Italy. Our food will<br>
+                    always be fun, fresh and filled with love.<br>
+                </p>
+                <h1 id="primaryFont" style="font-size: 60px; text-align: left;">
+                    Vision:
+                </h1>
+                <p id="primaryFont" style="font-size: xx-large; text-align: left;">
+                    &emsp;Pasta Amore combines the cooking traditions<br>
+                    and ingredients of Italy with creativity,<br>
+                    providing a modern twist on timeless classics.<br><br>
+                    &emsp;Our vision for the future is to grow and learn<br>
+                    along with our customers. In doing so, we aim<br>
+                    to provide an atmosphere that enables this<br>
+                    growth and fuels the passion that lives within<br>
+                    the essence of the brand.<br><br>
+                    &emsp;The approach of Pasta Amore is to develop<br>
+                    our brand with the understanding of both<br>
+                    our culture and consumer insights. Within<br>
+                    our vision always lives the promise of inspiring<br>
+                    creativity, conversation and quality.<br>
+                </p>
+            </div>
+            <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+        </main>
+    </div>
+    </wrapper>
+        <div class="col-xs-2" style="margin: 0; padding: 0; display: inline-block; height: 60vh; width: 12vw; text-align: center; position: fixed; right: 0; top: 150px;">
+            <a href="https://meritpages.com/iGFarr" target="_blank" rel="nofollow">
+                <img src="root_folder/images/MeritPagesBanner.png" style="height: 42%; width: 12vw;  margin: 0; padding: 0;">
+            </a>
+            <a href="https://github.com/iGFarr" target="_blank" rel="nofollow">
+                <img src="root_folder/images/github_logo.png" style="height: 42%; width: 12vw;  margin: 0; padding: 0; margin-top: 20px;">
+            </a>
+        </div>
+    </a>
+<hr>
+<footer>
+    <div style="text-align: center; margin-top: 8px">
+        <a href = "mailto:isaac.farr@snhu.edu?subject=Pasta_Amore_SiteFeedback" style="margin-right: 12px;">
+            <span class="glyphicon glyphicon-envelope"></span>
+        </a>
+            <span class="glyphicon glyphicon-earphone"></span>
+    </div>
+	<p style="padding: 10px; text-align: center;">Boilerplate code from <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a>. Check them out for great free templates!</p>
+</footer>
+</body>
+
+</html>
 <header>
     <div style="text-align: center; background-color: #0B9446;">
         <ul id="nav">
@@ -25,7 +396,7 @@
 
 <body>
     <h1>
-        CONTACT COMING SOON
+        ABOUT COMING SOON
     </h1>
 </body>
 
