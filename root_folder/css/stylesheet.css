@@ -11,9 +11,25 @@
     color: #CF1C44;
 }
 
+.glyphicon:link {
+    padding: 4px;
+    color: #e94669;
+    text-decoration: none;
+}
+.glyphicon:visited {
+    padding: 4px;
+    color: #e94669;
+    text-decoration: none;
+}
 .glyphicon:hover {
     padding: 4px;
     color: #e94669;
+    text-decoration: none;
+}
+.glyphicon:active {
+    padding: 4px;
+    color: #e94669;
+    text-decoration: none;
 }
 
 .blog-masthead {
@@ -24,6 +40,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    height: 70px;
 }
 
 .blog-nav-item {
@@ -44,6 +61,15 @@
 
 .blog-nav-item:hover {
     color :#CF1C44;
+}
+.inline-link, .inline-link:hover, .inline-link:active {
+    font-size: medium;
+    padding: 0;
+    color: #e94669;
+}
+
+.inline-link:visited {
+    color: #e06882;
 }
 
 .active {
@@ -73,6 +99,16 @@
     font-size: 30px;
     text-decoration: none;
 }
+
+.banner-image {
+    height: 60px;
+    width: auto;
+    position: fixed;
+    left: 16px;
+    top: 2px;
+    z-index: 1;
+}
+
 #back2Top:hover {
     color: #e94669;
 }
