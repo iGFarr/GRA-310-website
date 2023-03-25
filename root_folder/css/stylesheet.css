@@ -257,7 +257,7 @@ and (max-device-width : 768px) {
         font-family: 'klinic_slabmedium', sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: large;
+        font-size: medium;
         width: 125px;
         max-width: 20%;
     }
