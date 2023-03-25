@@ -94,6 +94,10 @@
 
 }
 
+h1 {
+    margin-top: 72px
+}
+
 #primaryFont {
     font-family: 'goudy-old-style', serif;
     font-weight: 400;
@@ -131,33 +135,6 @@
     padding: 4px;
     color: #e94669;
     text-decoration: none;
-}
-
-.blog-masthead {
-    background-color: #CF1C44;
-    -webkit-box-shadow: inset 6px -6px 8px #0b944695;
-    box-shadow: inset 6px -6px 8px #0b944695;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    height: 70px;
-}
-
-.blog-nav-item {
-    display: inline-block;
-    padding: 4px;
-    margin: 8px;
-    background-color: #e068829f;
-    border-radius: 10%;
-    border: 2px solid #12c962;
-    color: #12c962;
-    font-family: 'klinic_slabmedium', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: x-large;
-    width: 125px;
-    max-width: 20%;
 }
 
 .blog-nav-item:hover {
@@ -201,24 +178,103 @@
     text-decoration: none;
 }
 
-.banner-image {
-    height: 60px;
-    width: auto;
-    position: fixed;
-    left: 16px;
-    top: 2px;
-    z-index: 1;
+@media only screen 
+and (min-device-width : 768px) {
+    .banner-image {
+        height: 60px;
+        width: auto;
+        position: fixed;
+        left: 16px;
+        top: 2px;
+        z-index: 1;
+    }
+    
+    .cart-image {
+        font-size: xx-large;
+        position: fixed;
+        right: 16px;
+        top: 16px;
+        z-index: 1;
+        color: #0B9446;
+        display: inline-block;
+    }
+
+    .blog-nav-item {
+        display: inline-block;
+        padding: 4px;
+        margin: 8px;
+        background-color: #e068829f;
+        border-radius: 10%;
+        border: 2px solid #12c962;
+        color: #12c962;
+        font-family: 'klinic_slabmedium', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: x-large;
+        width: 125px;
+        max-width: 22%;
+    }
+
+    .blog-masthead {
+        background-color: #CF1C44;
+        -webkit-box-shadow: inset 6px -6px 8px #0b944695;
+        box-shadow: inset 6px -6px 8px #0b944695;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        height: 70px;
+    }
+}
+@media only screen 
+and (max-device-width : 768px) {
+    .banner-image {
+        height: 40px;
+        width: auto;
+        position: fixed;
+        left: 4px;
+        top: 65px;
+        z-index: 1;
+    }
+    
+    .cart-image {
+        font-size: xx-large;
+        position: fixed;
+        right: 4px;
+        top: 65px;
+        z-index: 1;
+        color: #0B9446;
+        display: inline-block;
+    }
+
+    .blog-nav-item {
+        display: inline-block;
+        padding: 2px;
+        margin: 4px;
+        background-color: #e068829f;
+        border-radius: 10%;
+        border: 2px solid #12c962;
+        color: #12c962;
+        font-family: 'klinic_slabmedium', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: large;
+        width: 125px;
+        max-width: 20%;
+    }
+
+    .blog-masthead {
+        background-color: #CF1C44;
+        -webkit-box-shadow: inset 6px -6px 8px #0b944695;
+        box-shadow: inset 6px -6px 8px #0b944695;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        height: 50px;
+    }
 }
 
-.cart-image {
-    font-size: xx-large;
-    position: fixed;
-    right: 16px;
-    top: 16px;
-    z-index: 1;
-    color: #0B9446;
-    display: inline-block;
-}
 
 #back2Top:hover {
     color: #e94669;
