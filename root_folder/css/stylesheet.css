@@ -1,25 +1,91 @@
-#nav {
-    display: inline-flex;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-}
-
-#nav li {
-    float: left;
-    padding: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    border: 1px solid #ccc;
-}
-
-#nav li a {
-    color: #CF1C44;
-}
-
-h1, #primaryFont {
+#primaryFont {
     font-family: "goudy-old-style", serif;
     font-weight: 400;
     font-style: normal;
     color: #7b573e;
+}
+
+.glyphicon {
+    font-size: x-large;
+    padding: 4px;
+    color: #CF1C44;
+}
+
+.glyphicon:hover {
+    padding: 4px;
+    color: #e94669;
+}
+
+.blog-masthead {
+    background-color: #CF1C44;
+    -webkit-box-shadow: inset 6px -6px 8px #0b944695;
+    box-shadow: inset 6px -6px 8px #0b944695;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.blog-nav-item {
+    display: inline-block;
+    padding: 4px;
+    margin: 8px;
+    background-color: #e068829f;
+    border-radius: 10%;
+    border: 2px solid #12c962;
+    color: #12c962;
+    font-family: "goudy-old-style", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    width: 125px;
+    max-width: 20%;
+}
+
+.blog-nav-item:hover {
+    color :#CF1C44;
+}
+
+.active {
+    color:  #017f38;
+    font-style: italic;
+}
+
+/* This is for the button that appears at the bottom of the screen */
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 14vh;
+    right: 0;
+	background-color: #0B9446;
+    color: #CF1C44;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    color: #e94669;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #0B9446;
+    border-top-color: #CF1C44;
+    border-top-style: double;
+    border-top-width: 4px;
+}
+
+body {
+    background-color: #cf1c4319;
 }
