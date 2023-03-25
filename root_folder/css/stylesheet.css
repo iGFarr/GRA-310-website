@@ -150,11 +150,6 @@ h1 {
     color: #e06882;
 }
 
-.active {
-    color:  #017f38;
-    font-style: italic;
-}
-
 /* This is for the button that appears at the bottom of the screen */
 #back2Top {
     width: 40px;
@@ -225,6 +220,10 @@ and (min-device-width : 768px) {
         z-index: 1;
         height: 70px;
     }
+    .active {
+        color:  #017f38;
+        font-style: italic;
+    }
 }
 @media only screen 
 and (max-device-width : 768px) {
@@ -272,6 +271,10 @@ and (max-device-width : 768px) {
         top: 0;
         z-index: 1;
         height: 50px;
+    }
+    .active {
+        color:  #017f38;
+        font-style: italic;
     }
 }
 
