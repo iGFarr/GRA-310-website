@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'klinic_slabmedium_italic';
     src: url('./KlinicSlabFont/klinicslabmediumit-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabmediumit-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabmediumit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,7 +12,7 @@
 @font-face {
     font-family: 'klinic_slabmedium';
     src: url('./KlinicSlabFont/klinicslabmedium-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabmedium-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabmedium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'klinic_slablight_italic';
     src: url('./KlinicSlabFont/klinicslablightit-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslablightit-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslablightit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -33,7 +33,7 @@
 @font-face {
     font-family: 'klinic_slablight';
     src: url('./KlinicSlabFont/klinicslablight-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslablight-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslablight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -42,7 +42,7 @@
 @font-face {
     font-family: 'klinic_slabbook_italic';
     src: url('./KlinicSlabFont/klinicslabbookit-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabbookit-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabbookit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -51,7 +51,7 @@
 @font-face {
     font-family: 'klinic_slabbook';
     src: url('./KlinicSlabFont/klinicslabbook-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabbook-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabbook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,7 +63,7 @@
 @font-face {
     font-family: 'klinic_slabbold_italic';
     src: url('./KlinicSlabFont/klinicslabboldit-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabboldit-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabboldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -71,7 +71,7 @@
 @font-face {
     font-family: 'klinic_slabbold';
     src: url('./KlinicSlabFont/klinicslabbold-webfont.woff2') format('woff2'),
-         url('./KlinicSlabFont/klinicslabbold-webfont.woff') format('woff');
+        url('./KlinicSlabFont/klinicslabbold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,14 +83,15 @@ h1 {
     padding-bottom: 12px
 }
 
-#primaryFont {
+.primaryFont {
     font-family: 'goudy-old-style', serif;
     font-weight: 400;
     font-style: normal;
     color: #7b573e;
 }
 
-#secondaryFont, p {
+.secondaryFont,
+p {
     font-family: 'klinic_slabbold_italic', serif;
     color: #543136;
 }
@@ -106,16 +107,19 @@ h1 {
     color: #e94669;
     text-decoration: none;
 }
+
 .glyphicon:visited {
     padding: 4px;
     color: #e94669;
     text-decoration: none;
 }
+
 .glyphicon:hover {
     padding: 4px;
     color: #e94669;
     text-decoration: none;
 }
+
 .glyphicon:active {
     padding: 4px;
     color: #e94669;
@@ -123,9 +127,12 @@ h1 {
 }
 
 .blog-nav-item:hover {
-    color :#CF1C44;
+    color: #CF1C44;
 }
-.inline-link, .inline-link:hover, .inline-link:active {
+
+.inline-link,
+.inline-link:hover,
+.inline-link:active {
     font-size: medium;
     padding: 0;
     color: #e94669;
@@ -135,7 +142,8 @@ h1 {
     color: #e06882;
 }
 
-nav { /* The rubric maker!*/
+nav {
+    /* The rubric maker!*/
     display: inline-block;
 }
 
@@ -155,15 +163,14 @@ nav { /* The rubric maker!*/
     position: fixed;
     bottom: 14vh;
     right: 0;
-	background-color: #0B9446;
+    background-color: #0B9446;
     color: #CF1C44;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 
-@media only screen 
-and (min-device-width : 768px) {
+@media only screen and (min-device-width : 768px) {
     .banner-image {
         height: 60px;
         width: auto;
@@ -172,7 +179,7 @@ and (min-device-width : 768px) {
         top: 2px;
         z-index: 1;
     }
-    
+
     .cart-image {
         font-size: xx-large;
         position: fixed;
@@ -209,13 +216,14 @@ and (min-device-width : 768px) {
         z-index: 1;
         height: 70px;
     }
+
     .active {
-        color:  #017f38;
+        color: #017f38;
         font-style: italic;
     }
 }
-@media only screen 
-and (max-device-width : 768px) {
+
+@media only screen and (max-device-width : 768px) {
     .banner-image {
         height: 40px;
         width: auto;
@@ -224,7 +232,7 @@ and (max-device-width : 768px) {
         top: 65px;
         z-index: 1;
     }
-    
+
     .cart-image {
         font-size: xx-large;
         position: fixed;
@@ -261,8 +269,9 @@ and (max-device-width : 768px) {
         z-index: 1;
         height: 50px;
     }
+
     .active {
-        color:  #017f38;
+        color: #017f38;
         font-style: italic;
     }
 }
