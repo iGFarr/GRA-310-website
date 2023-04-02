@@ -170,7 +170,7 @@ nav {
     text-decoration: none;
 }
 
-@media only screen and (min-device-width : 768px) {
+@media only screen and (min-width : 768px) {
     .banner-image {
         height: 60px;
         width: auto;
@@ -223,7 +223,7 @@ nav {
     }
 }
 
-@media only screen and (max-device-width : 768px) {
+@media only screen and (max-width : 768px) {
     .banner-image {
         height: 40px;
         width: auto;
