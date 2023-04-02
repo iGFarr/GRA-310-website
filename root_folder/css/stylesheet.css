@@ -135,6 +135,10 @@ h1 {
     color: #e06882;
 }
 
+nav { /* The rubric maker!*/
+    display: inline-block;
+}
+
 /* This is for the button that appears at the bottom of the screen */
 #back2Top {
     width: 40px;
