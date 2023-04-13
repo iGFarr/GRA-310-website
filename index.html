@@ -4,18 +4,22 @@
 <!-- Contains important meta data and file references -->
 
 <head>
-    <title>Pasta Amore Home</title> <!-- What's displayed in the tab -->
+    <title>Pasta Amore Home</title> <!-- What's displayed in the tab, also used for SEO -->
 
     <meta charset="utf-8"> <!-- Encoding character set -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Makes content dynamic for different screen sizes -->
-    <meta name="description" content="An overview of Pasta Amore and some helpful links."> <!-- For SEO -->
+    <meta name="description" content="An overview of Pasta Amore and some helpful links.">
+    <!-- For SEO, Google may or may not choose a more relevant quote instead -->
     <meta name="author" content="Isaac Farr"> <!-- That's me! -->
     <meta name="keywords" content="Pasta Amore, Italian, Cuisine, Fine Dining, Pizza, Cannoli, Recipes, Restaurant">
     <!-- More SEO -->
+    <meta name="robots" content="index, nofollow" />
+    <!-- This establishes how ALL external links are handled here, and whether the page is indexed for search engines. -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <!-- improves site speed by minimizing code size via whitespace removal -->
+    <script src="script.js"></script> <!-- for the return to top button -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
@@ -26,10 +30,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/efx1yrv.css">
     <link rel="stylesheet" href="root_folder/css/stylesheet.css">
 </head>
-
-<!-- Headers are great candidates for containing a nav bar -->
-
-<!-- IIRC main is typically a sub element of body containing the dominant content of a page -->
 
 <body>
     <div class="blog-masthead">
@@ -42,72 +42,73 @@
             </nav>
         </div>
     </div>
+        <a href="https://www.papajohns.com/order/stores-near-me?target=view-cart" target="_blank"><span
+                class="glyphicon glyphicon-shopping-cart cart-image"></span></a>
+        <a href="#"><img class="banner-image" src="root_folder/images/banner_logo.png" alt="pasta amore logo"></a>
+        <img src="root_folder/images/pizza_resized_banner.png"
+            style="width: 60vw; height: auto; margin-left: 20vw; margin-right: 20vw; margin-top: 82px; margin-bottom: -32px;"
+            alt="pizza banner image">
 
-    <a href="https://www.papajohns.com/order/stores-near-me?target=view-cart" target="_blank"><span
-            class="glyphicon glyphicon-shopping-cart cart-image"></span></a>
-    <a href="#"><img class="banner-image" src="root_folder/images/banner_logo.png" alt="pasta amore logo"></a>
-    <img src="root_folder/images/pizza_resized_banner.png"
-        style="width: 60vw; height: auto; margin-left: 20vw; margin-right: 20vw; margin-top: 72px;"
-        alt="pizza banner image">
+        <div class="container">
+            <div class="row-xs-12">
+                <a href="https://www.youtube.com/channel/UCAHXaslH4yfGCCV_tleWioQ" target="_blank">
+                    <div class="col-xs-2"
+                        style="background-color: darkgrey; margin: 0; padding: 0; display: inline-block; height: auto; width: 10vw; text-align: center; position: fixed; left: 0; top: 150px;">
+                        <img src="root_folder/images/CubeNoobBannerVert.png"
+                            style="height: auto; width: 10vw; max-height: 60vh; margin: 0; padding: 0;"
+                            alt="cube noob ad">
+                    </div>
+                </a>
 
-    <div class="container">
-        <div class="row-xs-12">
-            <a href="https://www.youtube.com/channel/UCAHXaslH4yfGCCV_tleWioQ" target="_blank" rel="nofollow">
-                <div class="col-xs-2"
-                    style="background-color: darkgrey; margin: 0; padding: 0; display: inline-block; height: auto; width: 10vw; text-align: center; position: fixed; left: 0; top: 150px;">
-                    <img src="root_folder/images/CubeNoobBannerVert.png"
-                        style="height: auto; width: 10vw; max-height: 60vh; margin: 0; padding: 0;" alt="cube noob ad">
-                </div>
-            </a>
-
-            <main class="col-xs-8 col-md-6 col-md-offset-2" style="margin-left: 20%; margin-right: 20%; width: 60%;">
-                <div style="text-align: left;">
-                    <h1 class="primaryFont" style="font-size: xx-large;">
-                        Mission Statement:
-                    </h1>
-                    <p style="font-size: x-large;">
-                        &emsp;To provide a warm atmosphere for your family<br>where we
-                        can share the traditional cuisines of Italy.<br>Our food will
-                        always be fun, fresh and filled with love.<br>
-                    </p>
-                    <img src="root_folder/images/cannoli-stock.jpeg"
-                        style="width: 30vw; height: auto; margin-right: 35vw; margin-top: 36px; text-align: center;"
-                        alt="cannoli image">
-                    <h1 class="primaryFont" style="font-size: xx-large;">
-                        Vision:
-                    </h1>
-                    <p style="font-size: x-large;">
-                        &emsp;Pasta Amore combines the cooking traditions<br>
-                        and ingredients of Italy with creativity,<br>
-                        providing a modern twist on timeless classics.<br><br>
-                        &emsp;Our vision for the future is to grow and learn<br>
-                        along with our customers. In doing so, we aim<br>
-                        to provide an atmosphere that enables this<br>
-                        growth and fuels the passion that lives within<br>
-                        the essence of the brand.<br><br>
-                        &emsp;The approach of Pasta Amore is to develop<br>
-                        our brand with the understanding of both<br>
-                        our culture and consumer insights. Within<br>
-                        our vision always lives the promise of inspiring<br>
-                        creativity, conversation and quality.<br>
-                    </p>
-                </div>
-                <a id="back2Top" title="Back to top" href="#">&#10148;</a>
-            </main>
+                <main class="col-xs-8 col-md-6 col-md-offset-2"
+                    style="margin-left: 20%; margin-right: 20%; width: 60%;">
+                    <div style="text-align: left;">
+                        <h1 class="primaryFont" style="font-size: xx-large;">
+                            Mission Statement:
+                        </h1>
+                        <p style="font-size: x-large;">
+                            &emsp;To provide a warm atmosphere for your family<br>where we
+                            can share the traditional cuisines of Italy.<br>Our food will
+                            always be fun, fresh and filled with love.<br>
+                        </p>
+                        <img src="root_folder/images/cannoli-stock.jpeg"
+                            style="width: 30vw; height: auto; margin-right: 35vw; margin-top: 36px; text-align: center;"
+                            alt="cannoli image">
+                        <h1 class="primaryFont" style="font-size: xx-large;">
+                            Vision:
+                        </h1>
+                        <p style="font-size: x-large;">
+                            &emsp;Pasta Amore combines the cooking traditions<br>
+                            and ingredients of Italy with creativity,<br>
+                            providing a modern twist on timeless classics.<br><br>
+                            &emsp;Our vision for the future is to grow and learn<br>
+                            along with our customers. In doing so, we aim<br>
+                            to provide an atmosphere that enables this<br>
+                            growth and fuels the passion that lives within<br>
+                            the essence of the brand.<br><br>
+                            &emsp;The approach of Pasta Amore is to develop<br>
+                            our brand with the understanding of both<br>
+                            our culture and consumer insights. Within<br>
+                            our vision always lives the promise of inspiring<br>
+                            creativity, conversation and quality.<br>
+                        </p>
+                    </div>
+                    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+                </main>
+            </div>
         </div>
-    </div>
-    <div class="col-xs-2"
-        style="margin: 0; padding: 0; margin-right: 4px; display: inline-block; height: 70vh; width: 12vw; text-align: center; position: fixed; right: 0; top: 150px;">
-        <a href="https://meritpages.com/iGFarr" target="_blank" rel="nofollow">
-            <img src="root_folder/images/MeritPagesBanner.png" style="height: auto; width: 12vw; margin: 0; padding: 0;"
-                alt="merit pages profile image">
-        </a>
-        <a href="https://github.com/iGFarr" target="_blank" rel="nofollow">
-            <img src="root_folder/images/github_logo.png"
-                style="height: auto; width: 12vw; margin: 0; padding: 0; margin-top: 20px;" alt="github icon">
-        </a>
-    </div>
-    <hr>
+        <div class="col-xs-2"
+            style="margin: 0; padding: 0; margin-right: 4px; display: inline-block; height: 70vh; width: 12vw; text-align: center; position: fixed; right: 0; top: 150px;">
+            <a href="https://meritpages.com/iGFarr" target="_blank">
+                <img src="root_folder/images/MeritPagesBanner.png"
+                    style="height: auto; width: 12vw; margin: 0; padding: 0;" alt="merit pages profile image">
+            </a>
+            <a href="https://github.com/iGFarr" target="_blank">
+                <img src="root_folder/images/github_logo.png"
+                    style="height: auto; width: 12vw; margin: 0; padding: 0; margin-top: 20px;" alt="github icon">
+            </a>
+        </div>
+        <hr>
     <footer>
         <div style="text-align: center; margin-top: 8px">
             <a href="mailto:isaac.farr@snhu.edu?subject=Pasta_Amore_SiteFeedback" style="margin-right: 12px;"><span
