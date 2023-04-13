@@ -158,6 +158,33 @@ nav {
 }
 
 @media only screen and (min-width : 768px) {
+    table {
+        margin-left: 9vw;
+        margin-top: 32px;
+        width: 50%;
+        border-collapse: collapse;
+    }
+
+    th {
+        font-size: 32px;
+    }
+    
+    td {
+        font-size: 24px;
+    }
+    
+    table caption {
+        font-size: 40px;
+        font-family: 'goudy-old-style', serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #7b573e;
+    }
+
+    .contact-buttons {
+        text-align: center;
+    }
+
     .banner-image {
         height: 60px;
         width: auto;
@@ -212,12 +239,40 @@ nav {
 }
 
 @media only screen and (max-width : 768px) {
+    table {
+        margin-left: 9vw;
+        margin-top: 32px;
+        width: 65%;
+        border-collapse: collapse;
+    }
+
+    th {
+        font-size: 24px;
+    }
+    
+    td {
+        font-size: 16px;
+    }
+    
+    table caption {
+        font-size: 32px;
+        font-family: 'goudy-old-style', serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #7b573e;
+    }
+
+    .contact-buttons {
+        text-align: right;
+        margin-right: 8px;
+    }
+
     .banner-image {
         height: 40px;
         width: auto;
         position: fixed;
         left: 4px;
-        top: 65px;
+        top: 55px;
         z-index: 1;
     }
 
@@ -289,34 +344,11 @@ body {
     background-color: #cf1c4319;
 }
 
-table {
-    margin-left: 9vw;
-    margin-top: 32px;
-    width: 50%;
-    border-collapse: collapse;
-}
-
 table,
 th,
 td {
     border: 1px solid;
     text-align: center;
-    font-family: 'goudy-old-style', serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #7b573e;
-}
-
-th {
-    font-size: 32px;
-}
-
-td {
-    font-size: 24px;
-}
-
-table caption {
-    font-size: 40px;
     font-family: 'goudy-old-style', serif;
     font-weight: 400;
     font-style: normal;
